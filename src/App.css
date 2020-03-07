@@ -1,0 +1,17 @@
+body {
+  background-color: #607D8B;
+}
+.appWrapper {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-areas: 
+  "h h"
+  "a c";
+  grid-template-rows: 1fr 10fr;
+  grid-template-columns: 2fr 10fr;
+}
+.appWrapperContent {
+  grid-area: c;
+  background-color: rgb(205, 231, 144);
+}

@@ -1,0 +1,27 @@
+.aside_wrap {
+    margin-top: 30px;
+}
+.aside_wrap h3 {
+    text-align: center;
+}
+.asideFriends {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 100px;
+    max-width: 200px;
+}
+
+.asideFriends__item {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.friend_avatar {
+    border-radius: 50%;
+}
+
+.friend_name {
+    text-decoration-line: none;
+    color: black;
+}

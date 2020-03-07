@@ -1,0 +1,13 @@
+.item {
+    display: flex;
+    margin: 5px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.likeCounter {
+    order: 1;
+}

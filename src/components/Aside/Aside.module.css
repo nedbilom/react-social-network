@@ -1,0 +1,17 @@
+.aside {
+    grid-area: a;
+    background-color: #CDDC39;
+  }
+  .mainNav {
+    list-style: none;
+  }
+  .mainNav_item {
+    text-decoration: none;
+    color: blue;
+  }
+  .mainNav_item.active_item {
+    color: black;
+  }
+  .mainNav_item:hover {
+    color: red;
+  }
