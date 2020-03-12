@@ -6,13 +6,15 @@ import MyPostsContainer from './MyPosts/MyPostsContainer';
 
 // data
 
-const Profile = () => {
-    return (
-        <main>
-            <ProfileInfo />
-            <MyPostsContainer />
-        </main>
-    )
+class Profile extends React.Component {
+    render() {
+        return (
+            <main>
+                <ProfileInfo />
+                <MyPostsContainer />
+            </main>
+        )
+    }
 }
 
 export default Profile;
