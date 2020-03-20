@@ -2,7 +2,7 @@ let initialState = {
     dataMenu: [
         {
             "id": 1,
-            "link": "/profile",
+            "link": "/Profile",
             "name": "Profile"
         },
         {

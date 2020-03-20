@@ -1,8 +1,8 @@
 body {
-  background-color: #607D8B;
+  background: linear-gradient(#444a5d 35%, #f27d3a 35%);
 }
 .appWrapper {
-  margin: 0 auto;
+  margin: 50px auto;
   width: 1200px;
   display: grid;
   grid-template-areas: 
@@ -13,5 +13,5 @@ body {
 }
 .appWrapperContent {
   grid-area: c;
-  background-color: rgb(205, 231, 144);
+  background-color: #d3cece;
 }

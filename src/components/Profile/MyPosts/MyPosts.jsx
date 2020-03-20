@@ -32,19 +32,16 @@ const MyPosts = (props) => {
 }
 
 // class MyPosts extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.postElement = this.props.postData.map(post =>
-//             <Post message={post.message} likeCount={post.likeCount} key={post.id} />
-//         ); // Создание новых элементов
-//         this.newPostElement = React.createRef(); // Ссылка на textarea
-//     }
+//     postElement = this.props.postData.map(post =>
+//         <Post message={post.message} likeCount={post.likeCount} key={post.id} />
+//     ); // Создание новых элементов
+//     newPostElement = React.createRef(); // Ссылка на textarea
 
-//     onPostChange() {
+//     onPostChange = () => {
 //         let text = this.newPostElement.current.value;
 //         this.props.updateNewPostText(text);
 //     }; // Изменение textarea
-//     onAddPost() {
+//     onAddPost = () => {
 //         this.props.addPost();
 //     }; // Добавление поста
 
@@ -53,7 +50,7 @@ const MyPosts = (props) => {
 //             <div>
 //                 <h2>My posts</h2>
 //                 <div>
-//                     <textarea onChange={this.onPostChange} ref={this.newPostElement} name="newPost" id="" cols="30" rows="5" value={this.props.newPostText} />
+//                     <textarea onChange={this.onPostChange} ref={this.newPostElement} name="newPost" id="" cols="30" rows="5"  />
 //                     <br />
 //                     <button onClick={this.onAddPost}>Add post</button>
 //                 </div>

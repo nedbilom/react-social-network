@@ -15,7 +15,6 @@ const Dialogs = (props) => {
         <Message content={message.content} avatar={message.avatar} key={message.id} />
     );
 
-
     let addText = (e) => {
         props.newMessage();
     };

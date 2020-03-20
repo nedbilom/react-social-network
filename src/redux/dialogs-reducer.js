@@ -1,5 +1,5 @@
-const NEW_MESSAGE = "NEW-MESSAGE";
-const UPDATE_NEW_MESSAGE = "UPDATE-NEW-MESSAGE-TEXT";
+const NEW_MESSAGE = "NEW_MESSAGE";
+const UPDATE_NEW_MESSAGE = "UPDATE_NEW_MESSAGE_TEXT";
 
 let initialState = {
     dataDialogsItem: [
@@ -64,11 +64,11 @@ const dialogsReducer = (state = initialState, action) => {
     }
 };
 
-export const newMessageActionCreator = () => ({
+export const newMessage = () => ({
     type: NEW_MESSAGE
 });
 
-export const updateNewMessageActionCreator = (text) => ({
+export const updateNewMessage = (text) => ({
     type: UPDATE_NEW_MESSAGE,
     newText: text
 });
