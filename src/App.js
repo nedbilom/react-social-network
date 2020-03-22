@@ -5,6 +5,7 @@ import ProfileContainer from './components/Profile/ProfileContainer';
 import Music from "./components/Music/Music"
 import News from "./components/News/News";
 import Settings from "./components/Settings/Settings";
+import Login from './components/Login/Login';
 import './App.css';
 import { Route } from "react-router-dom";
 import DialogsContainer from './components/Dialogs/DialogsContainer';
@@ -16,6 +17,7 @@ const App = (props) => {
       <HeaderContainer />
       <AsideContainer />
       <div className="appWrapperContent">
+        <Route path="/login" render={() => <Login />} />
         <Route path="/profile/:userId?" render={() => <ProfileContainer />} />
         <Route path="/dialogs" render={() => <DialogsContainer />} />
         <Route path="/users" render={() => <UsersContainer />} />
