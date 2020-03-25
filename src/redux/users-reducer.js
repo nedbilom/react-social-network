@@ -12,7 +12,7 @@ let initialState = {
     users: [],
     pageSize: 5,
     totalUsersCount: 0,
-    currentPage: 1,
+    currentPage: 519,
     isFetching: true,
     followingInProgress: []
 };

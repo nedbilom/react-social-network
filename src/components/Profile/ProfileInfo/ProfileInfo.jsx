@@ -1,7 +1,8 @@
 import React from 'react';
 import s from './ProfileInfo.module.css';
-import placeholderImage from '../../../image/avatars/placeholder.jpg';
+import placeholderImage from '../../../images/avatars/placeholder.jpg';
 import Preloader from '../../Common/Preloader/Preloader';
+import ProfileStatus from './ProfileStatus';
 
 const ProfileInfo = (props) => {
     if (!props.profile) {
@@ -22,6 +23,7 @@ const ProfileInfo = (props) => {
             <div>
                 <h2>{profile.fullName}</h2>
                 <img src={profile.photos.small ? profile.photos.small : placeholderImage} alt="" srcset="" />
+                <ProfileStatus status={props.status} updateStatus={props.updateStatus} />
                 <p>{profile.aboutMe}</p>
                 <p>{profile.lookingForAJob ? 'Ищу работу' : 'Не ищу работу'}</p>
                 {contacts.length ? <div><h2>Мои контакты:</h2>

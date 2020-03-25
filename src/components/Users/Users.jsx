@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './users.module.css';
-import avatarPlaceholder from './../../../src/image/avatars/mishka.jpg';
+import avatarPlaceholder from './../../../src/images/avatars/placeholder.jpg';
 import { NavLink } from 'react-router-dom';
 import { usersAPI } from '../../api/api';
 
