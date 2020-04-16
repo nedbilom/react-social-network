@@ -1,5 +1,4 @@
 const NEW_MESSAGE = "NEW_MESSAGE";
-const UPDATE_NEW_MESSAGE = "UPDATE_NEW_MESSAGE_TEXT";
 
 let initialState = {
     dataDialogsItem: [
@@ -40,23 +39,16 @@ let initialState = {
             content: "Йоу! Чо как чувааааак!",
             avatar: "./images/avatars/molib.jpg"
         },
-    ],
-    newMessageText: ''
+    ]
 };
 
 const dialogsReducer = (state = initialState, action) => {
     switch (action.type) {
         case NEW_MESSAGE:
-            let contentText = state.newMessageText;
+            let contentText = action.newMessageBody;
             return {
                 ...state,
-                newMessageText: '',
                 dataMessages: [...state.dataMessages, { id: 4, content: contentText, avatar: "./images/avatars/molib.jpg" }]
-            };
-        case UPDATE_NEW_MESSAGE:
-            return {
-                ...state,
-                newMessageText: action.newText
             };
         default:
             return state;
@@ -64,13 +56,9 @@ const dialogsReducer = (state = initialState, action) => {
     }
 };
 
-export const newMessage = () => ({
-    type: NEW_MESSAGE
-});
-
-export const updateNewMessage = (text) => ({
-    type: UPDATE_NEW_MESSAGE,
-    newText: text
+export const newMessage = (newMessageBody) => ({
+    type: NEW_MESSAGE,
+    newMessageBody
 });
 
 export default dialogsReducer;
