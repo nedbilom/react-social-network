@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-samurai"]=this["webpackJsonpreact-samurai"]||[]).push([[8],{300:function(a,c,t){a.exports={accentColor:"Music_accentColor__1i9N5"}},304:function(a,c,t){"use strict";t.r(c);var e=t(0),n=t.n(e),r=t(300),s=t.n(r);c.default=function(){return n.a.createElement("p",{className:s.a.accentColor},"\u042d\u0442\u043e \u0431\u0443\u0434\u0435\u0442 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0441 \u043c\u0443\u0437\u044b\u043a\u043e\u0439")}}}]);
+//# sourceMappingURL=8.1a09d58a.chunk.js.map
