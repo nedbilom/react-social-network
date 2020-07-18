@@ -1,4 +1,4 @@
-const NEW_MESSAGE = "NEW_MESSAGE";
+const NEW_MESSAGE = "dialogs/NEW_MESSAGE";
 
 let initialState = {
     dataDialogsItem: [

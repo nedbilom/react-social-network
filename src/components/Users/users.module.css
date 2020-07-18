@@ -3,20 +3,14 @@
     flex-direction: column;
     justify-content: space-around;
     padding-top: 20px;
-
-
 }
+
 .pageTitle {
     text-align: center;
     font-size: 32px;
 }
-.currentPage {
-    cursor: pointer;
-}
-.currentPage.selectedPage {
-    font-weight: bold;
-}
- .userCard {
+
+.userCard {
     display: flex;
     justify-content: space-between;
     margin: 0px 10px 10px 10px;
@@ -24,52 +18,63 @@
     border-radius: 10px;
     background-color: #d5ee9b;
 } 
-   .wrapperAvatar {
+
+.wrapperAvatar {
     flex-basis: 10%;
     align-self: center;
     text-align: center;
 }
+
 .user_photo {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-}  
+}
 
-  .userDesc {
+.userDesc {
     flex-basis: 80%;
 }
+
 .fullName {
     color: #527571;
     margin: 0;
 } 
+
 .status {
     font-size: 14px;
     color: grey;
 }
+
 .status_icon {
     width: 15px;
     margin-left: 5px;
     margin-right: 5px;
     transform: translateY(3px);
-} 
+}
+
 .location {
     font-size: 16px;
-} 
+}
+
 .location_icon {
     width: 20px;
     transform: translateY(3px);
 }
+
 .country {
     margin-right: 5px;
 }
+
 .city {
 
 }
+
 .followWrap {
     align-self: center;
     text-align: center;
     flex-basis: 10%;
 }
+
 .button {
     vertical-align: middle;
     border: 1px solid #4eb6b7;;
@@ -79,12 +84,12 @@
     cursor: pointer;
     background-color: white;
     color: white;
-
 }
+
 .buttonUnfollow {
     color: #4eb6b7;
-
 }
+
 .buttonFollow {
     background-color: #4eb6b7;
 }

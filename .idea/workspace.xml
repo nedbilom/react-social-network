@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a540d170-e040-45c7-b1c2-f6d61abe66e6" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a540d170-e040-45c7-b1c2-f6d61abe66e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +40,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XvuGL2cSLPAKcJ4Qk0ctPZrVSu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pure-excel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,24 +58,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\molibden\Desktop\react-samurai\01-first-project\react-samurai\src\components" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -104,23 +99,45 @@
       <workItem from="1585338396188" duration="1079000" />
       <workItem from="1585339506619" duration="183000" />
       <workItem from="1585339711917" duration="172000" />
+      <workItem from="1589635975496" duration="1193000" />
+      <workItem from="1589637193087" duration="85000" />
+      <workItem from="1589637314181" duration="300000" />
+      <workItem from="1589637636404" duration="460000" />
+      <workItem from="1589638114654" duration="338000" />
+      <workItem from="1589638468161" duration="1680000" />
+      <workItem from="1589640405415" duration="374000" />
+      <workItem from="1589640793413" duration="139000" />
+      <workItem from="1589749539800" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="678" y="220" key="FileChooserDialogImpl" timestamp="1589749588422">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="678" y="220" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1589749588422" />
+    <state x="389" y="194" key="IDE.errors.dialog" timestamp="1589637339557">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="389" y="194" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589637339557" />
+    <state x="670" y="119" width="1191" height="883" key="SettingsEditor" timestamp="1589640907375">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="670" y="119" width="1191" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1589640907375" />
   </component>
 </project>
